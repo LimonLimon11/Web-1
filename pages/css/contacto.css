@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    height: 600px;
+    background: #5BC8F7;
+    background: -webkit-linear-gradient(to right, hsla(202, 87%, 17%, 0.459), hsla(199, 100%, 41%, 0.664)), url(../img/Logotipo.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(202, 87%, 17%, 0.459), hsla(199, 100%, 41%, 0.664)), url(../img/Logotipo.jpg);
+    background-size: contain; /*sive para adaptar al tamaño */
+    background-attachment: fixed;
+    position: relative;
+  }
+  
+  .contactanos {
+    width: 400px;
+    background: #275C73;
+    padding: 30px;
+    margin: auto;
+    margin-top: 300px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    border-style: dashed;
+    border-color: #000;
+  }
+
+  h4{
+    text-align: center;
+    color: #5BC8F7;
+    font-size: 30px;
+    text-shadow: 7px 13px 37px #000;
+  }
+
+  .espacio_en_blanco {
+    padding: 3px;
+    margin: 10px 10px 10px 80px;
+  }
+
+  .experiencia{
+    padding: 3px 80px 50px 80px;
+    margin: 10px 10px 10px 0px;
+  }
+
+  .boton{
+    padding: 3px;
+    margin: 10px 10px 0px 120px;
+  }
